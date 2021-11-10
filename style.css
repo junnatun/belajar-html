@@ -1,0 +1,25 @@
+#cover{
+    background-color: darksalmon;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding:0 20px;
+}
+#cover .button{
+    font-size: 17px;
+    text-decoration: none;
+    color :black;
+    border:black 1px solid;
+    padding: 10px 18px;
+    border-radius: 8px;
+    margin-top: 18px;
+}
+#cover .button:hover{
+    background : gray;
+    color : black;
+}
